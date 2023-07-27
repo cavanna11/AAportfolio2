@@ -1,0 +1,47 @@
+*{
+    font-family: "transducer-variable",sans-serif;
+    font-variation-settings: 'wght' 818, 'wdth' 100, 'slnt' 0;
+}
+
+body{
+    overflow-x: hidden;
+  }
+nav{
+    height: 60px;
+    background-color: #000;
+    a{
+        color: #fff !important;
+        &:hover{
+            color: $violeta !important;
+        }
+    }
+}
+
+.inicio{
+    width: 100vw;
+    height: 50vw;
+    background-image: url(../../img/vwesfera.jpg);
+    background-attachment: fixed;
+    background-position: center ;
+    h1{
+        color: #fff;
+        font-size: 13vw;
+        text-align: left;
+        .santiago{
+            color: $violeta;
+        }
+    }
+    p{
+        color:#fff;
+    }
+    .iconos{
+        background-color: $violeta;
+        border-radius: 5px;
+        padding:10px 0;
+        i{
+            margin: 10px;
+            color: #fff;
+        }
+    }
+
+}
