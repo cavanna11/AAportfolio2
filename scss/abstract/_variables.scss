@@ -3,3 +3,16 @@ $azul1:#1A0859;
 $azul2:#2A26A6;
 $azul3:#0B0D40;
 $azul4:#080926;
+$azulmenos: #0809267e;
+$violetamenos: #c252f277;
+
+
+// EXTENDs
+
+%degrade{
+    background: linear-gradient(135deg, rgb(195, 84, 242) 27%, rgb(42, 38, 166) 100%);
+}
+
+%degrademenos{
+    background: linear-gradient(135deg, rgba(195, 84, 242, 0.411) 27%, rgba(42, 38, 166, 0.411) 100%);
+}

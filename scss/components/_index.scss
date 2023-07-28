@@ -6,8 +6,31 @@
 body{
     overflow-x: hidden;
   }
+
+//   WHATSAPP BUTTON
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+// WHATSAPP BUTTON END
 nav{
-    height: 60px;
+    .menuicon{
+        background-image: url(../../img/favicon.png) !important;
+    }
     background-color: #000;
     a{
         color: #fff !important;
@@ -18,15 +41,16 @@ nav{
 }
 
 .inicio{
+    padding-top: 6vw;
     width: 100vw;
-    height: 50vw;
+    height: 47vw;
     background-image: url(../../img/vwesfera.jpg);
     background-attachment: fixed;
-    background-position: center ;
+    background-position: center top;
+    text-align: center;
     h1{
         color: #fff;
         font-size: 13vw;
-        text-align: left;
         .santiago{
             color: $violeta;
         }
@@ -34,14 +58,46 @@ nav{
     p{
         color:#fff;
     }
+    .fondo{
+        @extend %degrade;
+    }
     .iconos{
-        background-color: $violeta;
-        border-radius: 5px;
-        padding:10px 0;
         i{
             margin: 10px;
             color: #fff;
         }
     }
 
+}
+
+.skills{
+    background-image: url(../../img/img4.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    padding: 7vw 0;
+    .barrasprogreso{
+        padding: 170px;
+        @extend %degrademenos;
+        // background-color: #ffffff28;
+        border-radius: 10px;
+        h2{
+            margin: 10px;
+            font-size: 70px;
+            text-align: center;
+            color: #fff;
+        }
+        h3{
+            color: white;
+            margin: 50px;
+            text-align: center;
+            text-decoration:underline $violeta;
+        }
+        p{
+            color: $azul4;
+        }
+        .barra{
+            background-color: $violeta !important;
+        }
+    }
 }
