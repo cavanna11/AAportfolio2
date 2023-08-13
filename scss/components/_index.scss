@@ -58,9 +58,6 @@ nav{
     p{
         color:#fff;
     }
-    .fondo{
-        @extend %degrade;
-    }
     .iconos{
         i{
             margin: 10px;
@@ -99,5 +96,18 @@ nav{
         .barra{
             background-color: $violeta !important;
         }
+    }
+}
+
+.experiencia{
+    height: 34vw;
+    @extend %degrade;
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+    .certificado{
+        margin: 50px;
+        
     }
 }

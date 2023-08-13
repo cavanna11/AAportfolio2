@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url("https://use.typekit.net/dhz3kok.css");
-.inicio .fondo {
+.experiencia {
   background: linear-gradient(135deg, rgb(195, 84, 242) 27%, rgb(42, 38, 166) 100%);
 }
 
@@ -101,6 +101,17 @@ nav a:hover {
 }
 .skills .barrasprogreso .barra {
   background-color: #C252F2 !important;
+}
+
+.experiencia {
+  height: 34vw;
+}
+.experiencia h2 {
+  text-align: center;
+  color: #fff;
+}
+.experiencia .certificado {
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
