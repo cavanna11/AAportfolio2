@@ -100,7 +100,6 @@ nav{
 }
 
 .experiencia{
-    height: 34vw;
     @extend %degrade;
     h2{
         text-align: center;
@@ -109,5 +108,20 @@ nav{
     .certificado{
         margin: 50px;
         
+    }
+}
+
+.proyectos{
+    background-image: url(../../img/vwhand.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
+    width: 100%;
+    .webs{
+        display: inline-block;
+        width: 300px;
+        img{
+            height: 250px;
+        }
     }
 }

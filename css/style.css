@@ -103,15 +103,27 @@ nav a:hover {
   background-color: #C252F2 !important;
 }
 
-.experiencia {
-  height: 34vw;
-}
 .experiencia h2 {
   text-align: center;
   color: #fff;
 }
 .experiencia .certificado {
   margin: 50px;
+}
+
+.proyectos {
+  background-image: url(../../img/vwhand.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center top;
+  width: 100%;
+}
+.proyectos .webs {
+  display: inline-block;
+  width: 300px;
+}
+.proyectos .webs img {
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
